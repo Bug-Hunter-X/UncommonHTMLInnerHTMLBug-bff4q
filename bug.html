@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+
+  <script>
+    // Incorrect use of innerHTML with multiple elements
+    document.getElementById("myDiv").innerHTML = "<p>This is a new paragraph.</p> <span>This is a span.</span>";
+  </script>
+</body>
+</html>
