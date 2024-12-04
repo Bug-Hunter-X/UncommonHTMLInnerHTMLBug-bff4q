@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug related to the use of innerHTML in HTML.  The bug involves incorrectly adding multiple elements using innerHTML, resulting in unexpected behavior. The solution showcases a more robust and safer approach.
