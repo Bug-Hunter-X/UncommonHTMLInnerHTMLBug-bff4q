@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+
+  <script>
+    // Correct approach using createElement and appendChild for multiple elements
+    const newParagraph = document.createElement("p");
+    newParagraph.textContent = "This is a new paragraph.";
+
+    const newSpan = document.createElement("span");
+    newSpan.textContent = "This is a span.";
+
+    const myDiv = document.getElementById("myDiv");
+    myDiv.appendChild(newParagraph);
+    myDiv.appendChild(newSpan);
+  </script>
+</body>
+</html>
